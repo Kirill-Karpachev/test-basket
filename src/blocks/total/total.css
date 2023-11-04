@@ -1,0 +1,8 @@
+.total {
+  padding: 35px 30px;
+  background-color: #F6F8FA;
+  border-radius: 5px;
+  max-width: 425px;
+  min-width: 425px;
+  box-sizing: border-box;
+}

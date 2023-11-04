@@ -1,0 +1,11 @@
+.basket__clean-button {
+  background-color: #fff;
+  border: 0;
+  border-bottom: 1px solid #797B86;
+  color: #797B86;
+  font-size: 14px;
+  line-height: 150%;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}

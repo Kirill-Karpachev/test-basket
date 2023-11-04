@@ -1,0 +1,6 @@
+.basket__info {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  align-items: baseline;
+}

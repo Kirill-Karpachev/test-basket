@@ -1,0 +1,9 @@
+.total__button {
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 600;
+  box-sizing: border-box;
+  border: 1px solid #0069B4;
+  padding: 14px 0;
+  cursor: pointer;
+}

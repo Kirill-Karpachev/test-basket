@@ -1,0 +1,62 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+/* page */
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__content/page__content.css);
+@import url(../blocks/page/__header/page__header.css);
+
+/* header */
+@import url(../blocks/header/header.css);
+
+/* shopping-cart */
+@import url(../blocks/shopping-cart/shopping-cart.css);
+@import url(../blocks/shopping-cart/__text/shopping-cart__text.css);
+@import url(../blocks/shopping-cart/__count/shopping-cart__count.css);
+@import url(../blocks/shopping-cart/__price/shopping-cart__price.css);
+
+/* basket */
+@import url(../blocks/basket/__info/basket__info.css);
+@import url(../blocks/basket/__info-text/basket__info-text.css);
+@import url(../blocks/basket/__title/basket__title.css);
+@import url(../blocks/basket/__count/basket__count.css);
+@import url(../blocks/basket/__clean-button/basket__clean-button.css);
+@import url(../blocks/basket/__list/basket__list.css);
+@import url(../blocks/basket/__content/basket__content.css);
+
+/* card */
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__info/card__info.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__description/card__description.css);
+@import url(../blocks/card/__code/card__code.css);
+@import url(../blocks/card/__amount/card__amount.css);
+@import url(../blocks/card/__button/card__button.css);
+@import url(../blocks/card/__count/card__count.css);
+@import url(../blocks/card/__button-decrement/card__button-decrement.css);
+@import url(../blocks/card/__button-increment/card__button-increment.css);
+@import url(../blocks/card/__count/card__count.css);
+@import url(../blocks/card/__price/card__price.css);
+@import url(../blocks/card/__delete-button/card__delete-button.css);
+
+/* service */
+@import url(../blocks/service/service.css);
+@import url(../blocks/service/__checkbox/service__checkbox.css);
+@import url(../blocks/service/__title/service__title.css);
+@import url(../blocks/service/__text/service__text.css);
+
+/* total */
+@import url(../blocks/total/total.css);
+@import url(../blocks/total/__title/total__title.css);
+@import url(../blocks/total/__wrapper-text/total__wrapper-text.css);
+@import url(../blocks/total/__container-text/total__container-text.css);
+@import url(../blocks/total/__text/total__text.css);
+@import url(../blocks/total/__text/_left/total__text_left.css);
+@import url(../blocks/total/__container-cost/total__container-cost.css);
+@import url(../blocks/total/__price-text/total__price-text.css);
+@import url(../blocks/total/__price/total__price.css);
+@import url(../blocks/total/__buttons/total__buttons.css);
+@import url(../blocks/total/__button/total__button.css);
+@import url(../blocks/total/__button/_checkout/total__button_checkout.css);
+@import url(../blocks/total/__button/_click/total__button_click.css);

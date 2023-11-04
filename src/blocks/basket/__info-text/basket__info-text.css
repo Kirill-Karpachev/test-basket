@@ -1,0 +1,5 @@
+.basket__info-text {
+  display: flex;
+  gap: 22px;
+  align-items: baseline;
+}

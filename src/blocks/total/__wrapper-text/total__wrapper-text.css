@@ -1,0 +1,8 @@
+.total__wrapper-text {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  margin-top: 31px;
+  border-bottom: 1px solid #AEB0B6;
+  padding-bottom: 28px;
+}

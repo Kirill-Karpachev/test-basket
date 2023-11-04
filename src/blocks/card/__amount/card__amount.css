@@ -1,0 +1,6 @@
+.card__amount {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-right: 84px;
+}

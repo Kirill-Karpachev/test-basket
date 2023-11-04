@@ -1,0 +1,7 @@
+.card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 263px;
+  margin-right: 79px;
+}

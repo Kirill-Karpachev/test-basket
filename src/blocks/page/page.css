@@ -1,0 +1,10 @@
+.page {
+  max-width: 1440px;
+  min-width: 320px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}

@@ -1,0 +1,14 @@
+.card {
+  display: flex;
+  max-width: 800px;
+  min-width: 800px;
+  align-items: center;
+  position: relative;
+  border-bottom: 1px solid #C4C4C4;
+  padding: 0 0 24px 0;
+}
+
+.card:last-child {
+  border-bottom: 0;
+  padding: 0;
+}

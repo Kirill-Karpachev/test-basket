@@ -1,0 +1,13 @@
+.card__count {
+  margin: 0;
+  background-color: #F6F8FA;
+  border: 0;
+  max-width: 34px;
+  min-width: 34px;
+  max-height: 34px;
+  min-height: 34px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

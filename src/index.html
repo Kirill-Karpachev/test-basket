@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Basket</title>
+</head>
+
+<body class="page">
+  <header class="header page__header">
+    <div class="shopping-cart header__shopping-cart">
+      <img class="shopping-cart__img" src="<%=require('./images/icons/shopping-cart.svg')%>" alt="">
+      <div class="shopping-cart__description">
+        <p class="shopping-cart__text">Ваша корзина</p>
+        <p class="shopping-cart__count">3 товара</p>
+        <p class="shopping-cart__price">50 576 ₽</p>
+      </div>
+    </div>
+  </header>
+  <main class="content page__content">
+    <section class="basket content__basket">
+      <div>
+        <div class="basket__info">
+          <div class="basket__info-text">
+            <h1 class="basket__title">Ваша корзина</h1>
+            <p class="basket__count">4 товара</p>
+          </div>
+
+          <button class="basket__clean-button" type="button">Очистить корзину</button>
+        </div>
+
+        <div class="basket__content">
+          <div>
+            <ul class="basket__list">
+              <li class="card">
+                <img class="card__image" src="<%=require('./images/basket/hood.svg')%>" alt="">
+                <div class="card__info">
+                  <h3 class="card__title">Вытяжное устройство G2H</h3>
+                  <p class="card__description">12-72/168 м3/ч / гидрорегулируемый расход / от датчика присутствия</p>
+                  <p class="card__code">Артикул: G2H1065</p>
+                </div>
+
+                <div class="card__amount">
+                  <button class="card__button card__button-decrement"><img
+                      src="<%=require('./images/icons/minus.svg')%>" alt="minus"></button>
+                  <p class="card__count">1</p>
+                  <button class="card__button card__button-increment"><img src="<%=require('./images/icons/plus.svg')%>"
+                      alt="plus"></button>
+                </div>
+
+                <p class="card__price">12 644 ₽</p>
+
+                <button class="card__delete-button"><img src="<%=require('./images/icons/close.svg')%>" alt=""></button>
+              </li>
+
+              <li class="card">
+                <img class="card__image" src="<%=require('./images/basket/hood.svg')%>" alt="">
+                <div class="card__info">
+                  <h3 class="card__title">Вытяжное устройство G2H</h3>
+                  <p class="card__description">12-72/168 м3/ч / гидрорегулируемый расход / от датчика присутствия</p>
+                  <p class="card__code">Артикул: G2H1065</p>
+                </div>
+
+                <div class="card__amount">
+                  <button class="card__button card__button-decrement"><img
+                      src="<%=require('./images/icons/minus.svg')%>" alt="minus"></button>
+                  <p class="card__count">1</p>
+                  <button class="card__button card__button-increment"><img src="<%=require('./images/icons/plus.svg')%>"
+                      alt="plus"></button>
+                </div>
+
+                <p class="card__price">12 644 ₽</p>
+
+                <button class="card__delete-button"><img src="<%=require('./images/icons/close.svg')%>" alt=""></button>
+              </li>
+              <li class="card">
+                <img class="card__image" src="<%=require('./images/basket/hood.svg')%>" alt="">
+                <div class="card__info">
+                  <h3 class="card__title">Вытяжное устройство G2H</h3>
+                  <p class="card__description">12-72/168 м3/ч / гидрорегулируемый расход / от датчика присутствия</p>
+                  <p class="card__code">Артикул: G2H1065</p>
+                </div>
+
+                <div class="card__amount">
+                  <button class="card__button card__button-decrement"><img
+                      src="<%=require('./images/icons/minus.svg')%>" alt="minus"></button>
+                  <p class="card__count">1</p>
+                  <button class="card__button card__button-increment"><img src="<%=require('./images/icons/plus.svg')%>"
+                      alt="plus"></button>
+                </div>
+
+                <p class="card__price">12 644 ₽</p>
+
+                <button class="card__delete-button"><img src="<%=require('./images/icons/close.svg')%>" alt=""></button>
+              </li>
+            </ul>
+
+            <div class="service basket__service">
+              <input class="service__checkbox" type="checkbox" />
+              <img class="service__image" src="<%=require('./images/icons/services.svg')%>" alt="">
+              <div class="service__description">
+                <h4 class="service__title">Установка</h4>
+                <p class="service__text">Отметьте, если Вам необходима консультация профессионала по монтажу выбранных
+                  товаров.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="total basket__total">
+            <div class="total__description">
+              <h2 class="total__title">Итого</h2>
+
+              <div class="total__wrapper-text">
+                <div class="total__container-text">
+                  <p class="total__text">Сумма заказа</p>
+                  <p class="total__text total__text_left">50 576 ₽</p>
+                </div>
+                <div class="total__container-text">
+                  <p class="total__text">Количество</p>
+                  <p class="total__text total__text_left">4 шт.</p>
+                </div>
+                <div class="total__container-text">
+                  <p class="total__text">Установка</p>
+                  <p class="total__text total__text_left">Нет</p>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="total__container-cost">
+              <h3 class="total__price-text">Стоимость товаров</h3>
+              <p class="total__price">50 576 ₽</p>
+            </div>
+
+            <div class="total__buttons">
+              <button class="total__button total__button_checkout" type="button">Оформить заказ</button>
+              <button class="total__button total__button_click" type="button">Купить в 1 клик</button>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="slider"></div>
+    </section>
+  </main>
+</body>
+
+</html>
