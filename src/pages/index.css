@@ -9,6 +9,12 @@
 /* header */
 @import url(../blocks/header/header.css);
 
+/* content */
+@import url(../blocks/content/content.css);
+@import url(../blocks/content/__navigation/content__navigation.css);
+@import url(../blocks/content/__home-text/content__home-text.css);
+@import url(../blocks/content/__basket-text/content__basket-text.css);
+
 /* shopping-cart */
 @import url(../blocks/shopping-cart/shopping-cart.css);
 @import url(../blocks/shopping-cart/__text/shopping-cart__text.css);
@@ -17,6 +23,7 @@
 
 /* basket */
 @import url(../blocks/basket/__info/basket__info.css);
+@import url(../blocks/basket/__my-swiper/basket__my-swiper.css);
 @import url(../blocks/basket/__info-text/basket__info-text.css);
 @import url(../blocks/basket/__title/basket__title.css);
 @import url(../blocks/basket/__count/basket__count.css);
@@ -31,7 +38,10 @@
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__description/card__description.css);
 @import url(../blocks/card/__code/card__code.css);
+@import url(../blocks/card/__amount-container/card__amount-container.css);
 @import url(../blocks/card/__amount/card__amount.css);
+@import url(../blocks/card/__amount-price/card__amount-price.css);
+@import url(../blocks/card/__amount-price/_visible/card__amount-price_visible.css);
 @import url(../blocks/card/__button/card__button.css);
 @import url(../blocks/card/__count/card__count.css);
 @import url(../blocks/card/__button-decrement/card__button-decrement.css);
@@ -60,3 +70,23 @@
 @import url(../blocks/total/__button/total__button.css);
 @import url(../blocks/total/__button/_checkout/total__button_checkout.css);
 @import url(../blocks/total/__button/_click/total__button_click.css);
+
+/*my-swiper*/
+@import url(../blocks/my-swiper/__item/my-swiper__item.css);
+@import url(../blocks/my-swiper/__image/my-swiper__image.css);
+@import url(../blocks/my-swiper/__heading/my-swiper__heading.css);
+@import url(../blocks/my-swiper/__text/my-swiper__text.css);
+@import url(../blocks/my-swiper/__price-container/my-swiper__price-container.css);
+@import url(../blocks/my-swiper/__price-eu/my-swiper__price-eu.css);
+@import url(../blocks/my-swiper/__price-ru/my-swiper__price-ru.css);
+@import url(../blocks/my-swiper/__button-details/my-swiper__button-details.css);
+@import url(../blocks/my-swiper/__top/my-swiper__top.css);
+@import url(../blocks/my-swiper/__title/my-swiper__title.css);
+@import url(../blocks/my-swiper/__buttons/my-swiper__buttons.css);
+@import url(../blocks/my-swiper/__button/my-swiper__button.css);
+@import url(../blocks/my-swiper/__button-image/my-swiper__button-image.css);
+@import url(../blocks/my-swiper/__pagination/my-swiper__pagination.css);
+
+/* swiper */
+@import url(../blocks/swiper/swiper.css);
+@import url(../blocks/swiper/swiper-pagination-current/swiper-pagination-current.css);

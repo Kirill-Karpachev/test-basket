@@ -1,0 +1,10 @@
+.card__amount-price {
+  font-size: 12px;
+  font-family: "Roboto";
+  color: #1F2432;
+  margin: 0;
+  position: absolute;
+  left: 15%;
+  margin-top: 8px;
+  display: none;
+}

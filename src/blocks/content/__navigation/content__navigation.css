@@ -1,0 +1,5 @@
+.content__navigation {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 60px;
+}

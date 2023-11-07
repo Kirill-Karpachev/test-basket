@@ -1,0 +1,7 @@
+.my-swiper__item {
+  max-width: 305px;
+  background-color: #F6F8FA;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 25px;
+}

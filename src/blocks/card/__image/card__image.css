@@ -1,4 +1,6 @@
 .card__image {
   margin-right: 31px;
   margin-left: 15px;
+  max-width: 100px;
+  max-height: 100px;
 }

@@ -1,0 +1,17 @@
+.my-swiper__button-details {
+  background-color: #0069B4;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14.5px 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Lato";
+  margin-top: 20px;
+  cursor: pointer;
+}

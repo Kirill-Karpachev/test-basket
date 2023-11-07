@@ -1,0 +1,13 @@
+.my-swiper__button {
+  display: flex;
+  border: 0;
+  border-radius: 50%;
+  padding: 16px 20px;
+  background-color: #90A2B5;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.my-swiper__button:disabled {
+  background-color: #90a2b5a6
+}
