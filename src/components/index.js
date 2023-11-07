@@ -27,8 +27,9 @@ const container = document.querySelector('.basket__list');
 const orderButton = document.querySelector('.total__button_checkout');
 const cleanButton = document.querySelector('.basket__clean-button');
 
-orderButton.addEventListener('click', makeOrder)
-cleanButton.addEventListener('click', cleanBasket)
+//данные уходят в console.log
+orderButton.addEventListener('click', makeOrder);
+cleanButton.addEventListener('click', cleanBasket);
 
 const swiper = new Swiper(".swiper", {
   slidesPerView: 4,
@@ -57,6 +58,6 @@ fakeDB.forEach(item => {
   } = item;
   const card = createCard(name, description, img, code, price, count);
   renderCard(container, card);
-})
+});
 
-renderTree()
+renderTree();
