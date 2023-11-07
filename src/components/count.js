@@ -1,4 +1,4 @@
-import { declOfNum } from "../utils/declOfNum";
+import { declOfNum } from "../utils/decl-of-num";
 
 export const updateCounter = () => {
   const cardCount = document.querySelectorAll('.card__count');

@@ -1,6 +1,6 @@
 import {
   declOfNum
-} from "../utils/declOfNum";
+} from "../utils/decl-of-num";
 
 export const cleanBasket = () => {
   const cards = document.querySelectorAll('.card');

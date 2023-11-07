@@ -1,6 +1,6 @@
 import {
   numberWithSpaces
-} from "../utils/numberWithSpache";
+} from "../utils/number-with-spache";
 import {
   renderTree
 } from "./render-tree";
